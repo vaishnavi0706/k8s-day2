@@ -26,6 +26,11 @@ docker build -t nginx3 ./nginx3
 
 docker push <registry>/nginx1:latest
 
-### **3. Deploy to Kubernetes**
-kubectl apply -f deployment.yaml  
+### ** Deploy to Kubernetes**
+kubectl apply -f deployment.yaml
+
+### **Port Forward to Access Nginx**
+kubectl port-forward pod/<pod-name> 8081:80
+
+Open **http://localhost:8081** in your browser.
 
