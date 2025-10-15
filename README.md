@@ -16,7 +16,7 @@ multi-nginx/<br>
 ├── Dockerfile<br>
 └── index.html<br>
 
-### Build Images from Dockerfile
+### Build & Push Images from Dockerfile
 ```bash
 docker build -t nginx1 ./nginx1
 docker build -t nginx2 ./nginx2
