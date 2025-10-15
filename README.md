@@ -4,14 +4,14 @@ Multi-nginx container deployed through Minikube.
 
 ## Structure
 
-multi-nginx/
+multi-nginx/<br>
 ├── deployment.yaml # Kubernetes deployment<br>
-├── nginx1/
-│ ├── Dockerfile
-│ └── index.html
-├── nginx2/
-│ ├── Dockerfile
-│ └── index.html
-└── nginx3/
-├── Dockerfile
-└── index.html
+├── nginx1/<br>
+│ ├── Dockerfile<br>
+│ └── index.html<br>
+├── nginx2/<br>
+│ ├── Dockerfile<br>
+│ └── index.html<br>
+└── nginx3/<br>
+├── Dockerfile<br>
+└── index.html<br>
