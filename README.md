@@ -5,7 +5,7 @@ Multi-nginx container deployed through Minikube.
 ## Structure
 
 multi-nginx/
-├── deployment.yaml # Kubernetes deployment
+├── deployment.yaml # Kubernetes deployment<br>
 ├── nginx1/
 │ ├── Dockerfile
 │ └── index.html
