@@ -4,20 +4,6 @@ Multi-nginx container deployed through Minikube.
 
 ## Structure
 
-multi-nginx/
-├── deployment.yaml # Kubernetes deployment
-├── nginx1/
-│ ├── Dockerfile
-│ └── index.html
-├── nginx2/
-│ ├── Dockerfile
-│ └── index.html
-└── nginx3/
-├── Dockerfile
-└── index.html
-
-### Build Images from Dockerfile
-
 multi-nginx/<br>
 ├── deployment.yaml # Kubernetes deployment<br>
 ├── nginx1/<br>
