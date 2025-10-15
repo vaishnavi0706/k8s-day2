@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: multi-nginx-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: multi-nginx
+  template:
+    metadata:
+      labels:
+        app: multi-nginx
+    spec:
+      containers:
+        - &nginx1
+          name: nginx1
+          image: vaishnavi0706/nginx1:latest
+          ports:
+            - containerPort: 8081
+        - &nginx2
+          name: nginx2
+          image: vaishnavi0706/nginx2:latest
+          ports:
+            - containerPort: 8082
+        - &nginx3
+          name: nginx3
+          image: vaishnavi0706/nginx3:latest
+          ports:
+            - containerPort: 8083
+
