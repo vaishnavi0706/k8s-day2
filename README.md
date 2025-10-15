@@ -25,3 +25,7 @@ docker build -t nginx3 ./nginx3
 ### Push images to registry
 
 docker push <registry>/nginx1:latest
+
+### **3. Deploy to Kubernetes**
+kubectl apply -f deployment.yaml  
+
